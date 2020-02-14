@@ -18,6 +18,7 @@
 | VCC  | 3.3v or 5v  |
 ### Recommended pin setup for ESP32
 > :warning: The following pinout is given based on assumption that you are using a 30 Pin version of ESP WROOM-32 DevKit (Pinout for other versions may var)
+
 ![Alt text](esp3218spitftlcd_1.jpg?raw=true "ST7735S TFT LCD SPI with ESP32")
 
 | LCD Pin  | ESP32 Pin |
