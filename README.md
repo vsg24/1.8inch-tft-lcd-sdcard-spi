@@ -33,7 +33,7 @@
 | VCC  | 3.3v or 5v  |
 
 ## 2- Write the test code
-Replace `PIN_NO` with the proper pin number from the previous step depending on your board and setup.
+In order to drive the display we will use `Adafruit_GFX` and `Adafruit_ST7735` libraries. You may need to install them in Arduino IDE or PlatformIO if not already done. Then replace `PIN_NO` with the proper pin number from the previous step depending on your board and setup.
 > :warning: For Arduino UNO, uncomment the first initializer option (Adafruit_ST7735) and comment the second option in order to get optimal performance
 ```cpp
  /***************************************************
